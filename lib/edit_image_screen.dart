@@ -14,7 +14,7 @@ class EditImageScreen extends StatefulWidget {
 class EditImageScreenState extends State<EditImageScreen> {
   bool _isProcessing = false;
   File? _processedImage;
-  final String _apiKey = 'AIzaSyCbIXWxkFO45-lxDoRD5eql9gmlEPQmMDE'; // استبدل بمفتاح API الخاص بك
+  final String _apiKey = 'Tour_Token'; // استبدل بمفتاح API الخاص بك
 
   Future<void> _removeWatermark() async {
     setState(() {
